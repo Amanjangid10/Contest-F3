@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+    padding: 10px;
+}
+
+.nav-left>a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.nav-right>a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px 0 10px;
+
+}
+
+.container{
+    
+    width: 60vw;
+    height: auto;
+    display: block;
+    margin: auto;  
+    padding: 50px;
+
+}
+
+.input-container>form{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+}
+
+.input-container>form>input{
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.input-container>form>button{
+    width: 100px;
+    height: 30px;
+}
+
+
+.error-msg{
+    color: red;
+}
+.success-msg{
+    color: green;
+    
+}
+
+
+/* profile css */
+
+
+
+.profile-content>div{
+    margin: 0 0   10px;
+}
+
